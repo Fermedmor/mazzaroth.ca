@@ -283,7 +283,7 @@ blockquote {
 
 .slide {
   -o-object-fit: fill;
-  object-fit: fill;
+     object-fit: fill;
 }
 
 .sliderdiv {
@@ -321,7 +321,7 @@ blockquote {
   background-image: url('../images/Mazzaroth-ill-12.png');
   background-size: 880px;
   -o-object-fit: fill;
-  object-fit: fill;
+     object-fit: fill;
 }
 
 .slidertext {
@@ -329,7 +329,7 @@ blockquote {
   z-index: 3;
   width: 180px;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .newsingletext {
@@ -352,7 +352,7 @@ blockquote {
   text-align: left;
   letter-spacing: -1px;
   -webkit-background-clip: text;
-  background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -891,7 +891,7 @@ blockquote {
   max-width: 60%;
   padding-bottom: 10vh;
   -o-object-fit: fill;
-  object-fit: fill;
+     object-fit: fill;
 }
 
 .blogdiv.bloglast {
@@ -1052,7 +1052,7 @@ blockquote {
   height: 100%;
   align-items: center;
   -o-object-fit: fill;
-  object-fit: fill;
+     object-fit: fill;
 }
 
 .hero-text-slider {
@@ -1262,7 +1262,7 @@ blockquote {
   background-position: 50% 50%;
   background-size: cover;
   -o-object-fit: fill;
-  object-fit: fill;
+     object-fit: fill;
 }
 
 .blog-image.blog-image-2 {
@@ -1344,7 +1344,7 @@ blockquote {
   margin-left: auto;
   border-radius: 15px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .blog-content-div {
@@ -1459,7 +1459,7 @@ blockquote {
   flex: 1;
   perspective: 1000px;
   -o-object-fit: fill;
-  object-fit: fill;
+     object-fit: fill;
 }
 
 .text-block {
@@ -1518,7 +1518,7 @@ blockquote {
   display: block;
   max-height: none;
   -o-object-fit: fill;
-  object-fit: fill;
+     object-fit: fill;
 }
 
 .next {
@@ -1549,7 +1549,7 @@ blockquote {
   text-align: left;
   letter-spacing: -1px;
   -webkit-background-clip: text;
-  background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -2428,7 +2428,7 @@ html.w-mod-js *[data-ix="upper-link-in-app"] {
   }
 
   .buttonplaynow {
-    background-image: repeating-radial-gradient(circle closest-corner at 50% 50%, #cd7b62, rgba(9, 52, 134, 0));
+    background-image: repeating-radial-gradient(circle closest-corner at 50% 50%, #04a3c3, rgba(9, 52, 134, 0));
   }
 
   .socialmedia {
@@ -2539,6 +2539,7 @@ html.w-mod-js *[data-ix="upper-link-in-app"] {
   }
 
   .hotnewtag {
+    background-image: radial-gradient(circle closest-corner at 50% 50%, #04a3c3, rgba(9, 52, 134, 0));
     line-height: 15px;
   }
 
@@ -2729,6 +2730,10 @@ html.w-mod-js *[data-ix="upper-link-in-app"] {
     font-size: 13vw;
     line-height: 1em;
     text-align: center;
+  }
+
+  .div-block-3 {
+    max-width: 100%;
   }
 }
 
